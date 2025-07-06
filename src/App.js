@@ -5,7 +5,7 @@ function App() {
 
   const callApi = async () => {
     try {
-      const res = await fetch('http://54.168.157.87:3000/api/hello');
+      const res = await fetch('http://18.181.216.114/api/hello');
       const data = await res.json();
       setMessage(data.message);
     } catch (error) {
